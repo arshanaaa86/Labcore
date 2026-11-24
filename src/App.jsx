@@ -2,16 +2,10 @@ import './App.css'
 import RoleSelection from './pages/RoleSelection'
 
 function App() {
-
-  // Check which page the user wants to open
   const currentPage = window.location.pathname
-
-  // Display Role Selection page
   if (currentPage === '/login') {
     return <RoleSelection />
   }
-
-  // Display Homepage
   return (
     <div className="home-page">
 
