@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F8F5F0;
+  color: #242329;
+}
+
+.home-page {
+  min-height: 100vh;
+  background-color: #F8F5F0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 7%;
+  border-bottom: 1px solid #E8DDD8;
+}
+
+.logo {
+  width: 230px;
+  height: auto;
+  object-fit: contain;
+}
+
+.login-button {
+  background-color: #8F1933;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 10%;
+}
+
+.welcome {
+  color: #8F1933;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  font-size: 55px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #242329;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  max-width: 550px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.start-button {
+  background-color: #8F1933;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.start-button:hover,
+.login-button:hover {
+  background-color: #681126;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #E8DDD8;
+  color: #777;
+  font-size: 13px;
+}
